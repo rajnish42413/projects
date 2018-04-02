@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+  <style>
+.page-title {
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 300px;
+    margin-top: -20px;
+}
+.page-title>div{
+    position: relative;
+    top: 90px;
+      }
+.page-title>div>h1{
+    font-weight: 800;
+    font-size: 45px;
+        
+      }
+
+#btn3{
+    margin-top: 20px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+      }
+ #btn3>a{
+     text-decoration: none;
+     color: white;
+     font-weight: 300;
+ }
+ #btn3>a:hover{
+     color: orange;
+ }
+      
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    text-align: center;
+    color: orange;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #5e5e5e;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+</style>  
+    
+<body>   
+ <header>
+<div class="container">
+<div class="row">
+ <div class="col-xs-12 col-sm-12 col-lg-6">
+    <div id="icon">
+     <a href="index.html"><img src="images/logo.png"></a>
+    </div>
+</div>
+  
+<div class="col-xs-12 col-sm-12 col-lg-6">
+    <div >
+        <ul class="footer-icon pull-right">
+            <li><a href="#" ><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></a></li>
+            <li><a href="#" ><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#" ><i class="fa fa-twitter social-icon twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#" ><i class="fa fa-google-plus social-icon google" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+ 
+</div>
+
+        
+</div>
+
+  <hr>  
+
+    
+<nav class="navbar navbar-default" style="background-color:#25292F;border:none;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        
+        
+      <ul class="nav navbar-nav" id="demo-navlist">
+        
+           
+          <li><a href="index.html" >HOME</a></li>
+          <li><a href="aboutus.html" >ABOUT</a></li>
+          <li><a href="causes.html" >CAUSE</a></li>
+          <li><a href="event.html" >EVENTS</a></li>
+          <li><a href="gallery.html" >GALLERY</a></li>
+          <li><a href="blog.html" >BLOG</a></li>
+          <li><a href="contact.html" >CONTACT US</a></li>
+        </ul>
+   
+     
+      
+       <ul class="nav navbar-nav navbar-right">
+        <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+        </ul>
+</div><!-- /.container-fluid -->
+
+</div>
+</nav>
+</div>
+</header>
+
+<!--content-->
+    
+<section class="page-title" style="background-image:url(images/background/page-title-bg.jpg);">
+    <div>
+        <h1><b>GALLERY</b></h1>
+        
+        <div id="btn3">
+        <a href="index.html">HOME</a>
+         /
+        <a href="aboutus.html">GALLERY</a>
+        </div>
+    </div>
+</section>
+ 
+    
+    
+ <div class="container">
+        <div class="row">
+        
+<br><br>
+        <div align="center">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="hdpe">HDPE Pipes</button>
+            <button class="btn btn-default filter-button" data-filter="sprinkle">Sprinkle Pipes</button>
+            <button class="btn btn-default filter-button" data-filter="spray">Spray Nozzle</button>
+            <button class="btn btn-default filter-button" data-filter="irrigation">Irrigation Pipes</button>
+        </div>
+        <br/>
+
+
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+        </div>
+    </div>
+
+   
+<section class="subscribe-intro">
+    <div class="container">
+        <div class="col-xs-8 col-sm-8 col-lg-8 ">
+            <h1><b>Subcribe for Newsletter</b></h1>
+            <p>There are many variations of passages of Lorem Ipsum available but the majority have</p>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-lg-4 ">
+         <a class="btn-all2 pull-right">SUBSCRIBE NOW</a><br>
+        </div>
+    </div>
+</section>
+    
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 footer-col">
+        <div class="logofooter"> Logo</div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+        <p><i class="fa fa-map-pin"></i> #228, Tiruvannamalai, Tamilnadu, India</p>
+        <p><i class="fa fa-phone"></i> Phone (India) : +91 9999 999 999</p>
+        <p><i class="fa fa-envelope"></i> E-mail : info@prabuuideveloper.com</p>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">GENERAL LINKS</h6>
+        <ul class="footer-ul">
+          <li><a href="#"> Career</a></li>
+          <li><a href="#"> Privacy Policy</a></li>
+          <li><a href="#"> Terms & Conditions</a></li>
+          <li><a href="#"> Client Gateway</a></li>
+          <li><a href="#"> Ranking</a></li>
+          <li><a href="#"> Case Studies</a></li>
+          <li><a href="#"> Frequently Ask Questions</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">LATEST POST</h6>
+        <div class="post">
+          <p>facebook crack the movie advertisment code:what it means for you <span>August 3,2015</span></p>
+          <p>facebook crack the movie advertisment code:what it means for you <span>August 3,2015</span></p>
+          <p>facebook crack the movie advertisment code:what it means for you <span>August 3,2015</span></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">Social Media</h6>
+        <ul class="footer-social">
+          <li><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></li>
+          <li><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></li>
+          <li><i class="fa fa-twitter social-icon twitter" aria-hidden="true"></i></li>
+          <li><i class="fa fa-google-plus social-icon google" aria-hidden="true"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer start from here-->
+
+<div class="copyright">
+  <div class="container">
+    <div class="col-md-6">
+      <p>© 2016 - All Rights with prabuuideveloper</p>
+    </div>
+    <div class="col-md-6">
+      <ul class="bottom_ul">
+        <li><a href="#">prabuuideveloper.com</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Faq's</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Site Map</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+ $(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+    if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});   
+</script>
+</html>
